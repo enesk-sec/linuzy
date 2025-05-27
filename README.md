@@ -10,15 +10,15 @@ Note: This tool requires root (or sudo) privileges for most modules.
 
 ## 📋 Features
 
-- 📦 System Updates
-- ⚙️  Ansible Playbook Launcher (with target IP configuration)
-- 🔐 PAM Security Enhancer (password complexity policies)
-- 🛡️ Security Hardening (SSH, SELinux, GRUB, chage, etc.)
-- 🌐 Network Management with `nmcli`
-- 📡 NFS + AutoFS Setup
-- 💽 LVM Creation from a new disk
-- 💾 Backup & Snapshot Tool
-- ⏰ Cron Automation + Logrotate Config
+- 📦 **System Updates** — Keep your system up to date using dnf/yum.
+- ⚙️ **Ansible Integration** — Launch playbooks, configure inventory, automate setups.
+- 🔐 **PAM Security Enhancer** — Enforce password complexity rules.
+- 🛡️ **Security Hardening** — Configure SSH, SELinux, GRUB protections.
+- 🌐 **Network Manager (nmcli)** — Manage network interfaces.
+- 📡 **NFS & AutoFS Setup** — Auto-mount network shares.
+- 💽 **LVM Toolkit** — Create and manage Logical Volumes.
+- 💾 **Backup & Snapshot** — Simple rsync-based backups.
+- ⏰ **Cron & Logrotate** — Automate jobs and manage log rotation.
 
 ---
 
