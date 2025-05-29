@@ -467,8 +467,8 @@ create_lvm() {
 	echo -e "${GREEN}--- LVM Creation ---${NC}"
 	echo -e "${RED}WARNING: Make sure the disk you choose is unmounted and has no important data!${NC}"
 	echo -e "You must manually create a Linux partition (type 8e) using fdisk or parted before using this script."
-	read -p "Do you want to continue? (yes/no): " confirm
-	[[ "$confirm" != "yes" ]] && main_menu
+	read -p "Do you want to continue? (y/n): " confirm
+	[[ "$confirm" != "y" ]] && main_menu
 
 	lsblk
 	read -p "Enter the full path of partition (e.g. /dev/sdb1): " part
