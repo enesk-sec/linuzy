@@ -26,7 +26,7 @@ Note: This tool requires root (or sudo) privileges for most modules.
 
 - Bash Shell
 - `dnf` or `yum` based distro (Tested on RHEL/CentOS/Rocky Linux/Fedora).
-  ⚠️ Currently, Linuzy is designed for Red Hat-based distributions. Support for Debian/Ubuntu is not available at this time.
+- ⚠️ Currently, Linuzy is designed for Red Hat-based distributions. Support for Debian/Ubuntu is not available at this time.
 - Some modules require:
   - `ansible`
   - `policycoreutils-python-utils`
